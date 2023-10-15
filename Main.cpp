@@ -9,22 +9,18 @@ using namespace std;
 int main(){
   // creamos un vector llamado contenido el cual va a guardar los sabores de las Malangas
   Contenido contenido;
+  contenido.cargarDatosDesdeTXT("info.txt");
+  
 
   //Sabores vendidos cada semana
-  contenido.agregarSabor("Flaming", 15);
-  contenido.agregarSabor("Adobadas", 30);
-  contenido.agregarSabor("Crema", 25);
-  contenido.agregarSabor("Guacamole",10);
-  contenido.agregarSabor("Chipotle", 3);
-  contenido.agregarSabor("Jalapeño", 10);
-  contenido.agregarSabor("Habanero", 30);
 
-int sigue = 1;
+  int sigue = 1;
+  string corre = "";
 
   // Inicia el programa con una bienvenida al usuario
   while (sigue == 1) {
     int respuesta;
-    string sabor;
+    string sabor, fecha;
     string seleccion, n, p, busca;
 
     cout << "\n";
@@ -57,17 +53,31 @@ int sigue = 1;
     cin>> respuesta;
 
     if(respuesta == 1){
-      contenido.ordenarSaboresPorCantidad();
+      // Puedes pedir al usuario que introduzca la fecha para ordenar los sabores
+        cout << "Introduzca la fecha (por ejemplo, 28/09/2023): ";
+        cin >> fecha;
+        contenido.ordenarSaboresPorCantidad(fecha);
     }
     else if (respuesta == 2){
-      cout<<"Introduce el sabor que quieras ver: "<<endl;
-      cin>> sabor;
-      contenido.buscarSabor(sabor);
+      cout << "Introduce el sabor que quieras buscar (En dado caso de querer buscar Jalapeño, favor de escribirlo Jalapeno): ";
+          cin >> sabor;
+          cout << "Introduce la fecha en la que deseas buscar (por ejemplo, 28/09/2023): ";
+          cin >> fecha;
+          contenido.buscarSabor(fecha, sabor);
+    
     }
-    
 
-    
-return 0;
-}
+    cout << "Estos son los valores solicitados. ¿Desea continuar usando este software? (si/no)" << endl;
+        cin >> corre;
+
+        if (corre == "no") {
+            cout << "Muchas gracias por apoyar Malanguetas. ¡Hasta la próxima!" << endl;
+            sigue = 0;
+        } else if (corre == "si") {
+            sigue = 1;
+        }
+    }
+
+    return 0;  // Ahora la declaración 'return 0;' está fuera del bucle, por lo que el programa terminará aquí cuando el usuario decida salir.
 }
 
