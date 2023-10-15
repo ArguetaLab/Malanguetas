@@ -10,3 +10,7 @@ En este repositorio, encontrarás un código capaz de organizar el stock de una 
     vendidas en la semana.
 
 Estas funcionalidades proporcionan a los usuarios una herramienta eficaz para gestionar su inventario y tomar decisiones informadas sobre qué sabores son más populares y cuáles pueden necesitar una mayor atención en términos de suministro. Este código se puede ampliar y personalizar según las necesidades específicas de Malanguetas para una gestión de inventario más completa y eficiente.
+
+Estructura de datos y Big O notation:
+
+En el caso de mi proyecto, la estructura de datos implementada fue el hash map, el cual se encuentra en la linea 19 del archivo Contenido.cpp, la razón por la que decidí usar esta estrustura radica en que mi proyecto necesitaba de una lista capaz de recibir datos relacionados, ya que en un día (fecha) se puede vender varios sabores de malangas, antes de implementar la estructura estaba usanod un vector de pares, el cual funcionaba bien pero a la larga se volvía lento con medida en que iba agregando valores, por lo que decidí usar Hash Map. El big O notation que ocupa este O(1) promedio.
