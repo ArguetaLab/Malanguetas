@@ -136,4 +136,62 @@ int buscarSabor(const string& fecha, const string& sabor) {
         }
     }
 
+    void nuevaFecha(){
+
+        ofstream archivoEscritura("info.txt", ios::out | ios::app);
+
+        string nuevaFe;
+        string nuevaCantidad_Flaming_hot;
+        string nuevaCantidad_Adobadas;
+        string nuevaCantidad_Crema_y_especias;
+        string nuevaCantidad_Guacamole;
+        string nuevaCantidad_Chipotle;
+        string nuevaCantidad_Jalapeno;
+        string nuevaCantidad_Habanero;
+        string nuevoDato;
+
+        cout << "Por favor introduzca la nueva fecha (siga este formato: 28/09/2023) Las fechas del 28/09/2023 al 16/10/2023 ya existen: "<<endl;
+        
+        cin >> nuevaFe;
+
+        cout << "Para finalizar con el proceso por favor instroduzca la cantidad vendida por cada sabor: " <<endl;
+
+        cout << "   + Flaming hot: ";
+        cin >> nuevaCantidad_Flaming_hot;
+
+        cout << "   + Adobadas: ";
+        cin >> nuevaCantidad_Adobadas;
+
+        cout << "   + Crema y especias: ";
+        cin >> nuevaCantidad_Crema_y_especias;
+
+        cout << "   + Guacamole: ";
+        cin>> nuevaCantidad_Guacamole;
+
+        cout << "   + Chipotle: ";
+        cin>> nuevaCantidad_Chipotle;
+
+        cout << "   + Jalapeño: ";
+        cin>> nuevaCantidad_Jalapeno;
+
+        cout << "   + Habanero: ";
+        cin>> nuevaCantidad_Habanero;
+
+        nuevoDato = nuevaFe+","+nuevaCantidad_Flaming_hot+","+nuevaCantidad_Adobadas+","+nuevaCantidad_Crema_y_especias+","+nuevaCantidad_Guacamole+","+nuevaCantidad_Chipotle+","+nuevaCantidad_Jalapeno+","+nuevaCantidad_Habanero;
+
+        if (archivoEscritura.is_open()) {
+        // Escribir los valores en el archivo
+        archivoEscritura << nuevoDato << "\n";
+
+        // Cerrar el archivo después de escribir
+        archivoEscritura.close();
+
+        cout << "Los nuevos valores se han guardado en el archivo 'info.txt'." << endl;
+    } else {
+        cout << "Error al abrir el archivo para escritura." << endl;
+    }
+}
+
+
+
 };
