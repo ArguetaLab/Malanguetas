@@ -48,6 +48,7 @@ int main(){
     cout<<"Seleccione la opcion que desea hacer de nuestro sistema: "<<endl;
     cout<<" 1) Mostrar todos los sabores disponibles con orden de menor a mayor ventas por semana"<<endl;
     cout<<" 2) Buscar un sabor en especifico"<<endl;
+    cout<<" 3) Agregar nueva fecha con cantidades vendidas de sabores (Se requiere contraseña)"<<endl;
 
     cout<<"Introduzca su opción: "<<endl;
     cin>> respuesta;
@@ -66,6 +67,19 @@ int main(){
           contenido.buscarSabor(fecha, sabor);
     
     }
+
+    
+    else if(respuesta == 3){
+      string admin;
+      cout << "Introduce la contraseña de administrador para poder hacer cambios a la base de datos: "<<endl;
+      cin>>admin;
+      if(admin == "zoe2204"){
+        contenido.nuevaFecha();
+        contenido.cargarDatosDesdeTXT("info.txt");
+      }
+
+    }
+    
 
     cout << "Estos son los valores solicitados. ¿Desea continuar usando este software? (si/no)" << endl;
         cin >> corre;
