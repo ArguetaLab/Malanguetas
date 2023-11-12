@@ -15,4 +15,6 @@ Para usar correctamente este software, a la hora que se le solicite al usuario s
 
 Estructura de datos y Big O notation:
 
-En el caso de mi proyecto, la estructura de datos implementada fue el hash map, el cual se encuentra en la linea 19 del archivo Contenido.cpp, la razón por la que decidí usar esta estrustura radica en que mi proyecto necesitaba de una lista capaz de recibir datos relacionados, ya que en un día (fecha) se puede vender varios sabores de malangas, antes de implementar la estructura estaba usanod un vector de pares, el cual funcionaba bien pero a la larga se volvía lento con medida en que iba agregando valores, por lo que decidí usar Hash Map. El big O notation que ocupa este O(1) promedio.
+agregarSabor: O(1)
+buscarSabor: O(n)
+ordenarSaboresPorCantidad: O(n^2)
