@@ -16,5 +16,7 @@ Para usar correctamente este software, a la hora que se le solicite al usuario s
 Estructura de datos y Big O notation:
 
 agregarSabor: O(1)
+
 buscarSabor: O(n)
+
 ordenarSaboresPorCantidad: O(n^2)
