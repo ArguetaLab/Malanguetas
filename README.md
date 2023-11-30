@@ -11,6 +11,16 @@ En este repositorio, encontrarás un código capaz de organizar el stock de una 
 
 Estas funcionalidades proporcionan a los usuarios una herramienta eficaz para gestionar su inventario y tomar decisiones informadas sobre qué sabores son más populares y cuáles pueden necesitar una mayor atención en términos de suministro. Este código se puede ampliar y personalizar según las necesidades específicas de Malanguetas para una gestión de inventario más completa y eficiente.
 
+Para usar correctamente este software, a la hora que se le solicite al usuario seleccionar una fecha, esta deberá ser en el rango de 28/09/2023 - 16/10/2023
+
+Estructura de datos y Big O notation:
+
+- agregarSabor: O(1)
+
+- buscarSabor: O(n)
+
+- ordenarSaboresPorCantidad: O(n^2)
+
 # "SICT0301 Evalúa los componentes"
 
   # Hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados en el programa.
@@ -21,15 +31,28 @@ Estas funcionalidades proporcionan a los usuarios una herramienta eficaz para ge
 
   # Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa
 
+# "SICT0302 Toma decisiones "
+
+  # Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente.
+
+
+  # Selecciona una estructura de datos adecuada al problema y lo usa correctamente.
+
+
+# "SICT0303 Implementa acciones científicas"
+
+  # Implementa mecanismos para consultar información de las estructras correctos
+
+
+  # Implementa mecanismos de lectura de archivos para cargar datos a las estructuras de manera correcta
+
+
+  # Implementa mecanismos de escritura de archivos para guardar los datos  de las estructuras de manera correcta
 
 
 
-Para usar correctamente este software, a la hora que se le solicite al usuario seleccionar una fecha, esta deberá ser en el rango de 28/09/2023 - 16/10/2023
 
-Estructura de datos y Big O notation:
 
-- agregarSabor: O(1)
 
-- buscarSabor: O(n)
 
-- ordenarSaboresPorCantidad: O(n^2)
+
