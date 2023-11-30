@@ -21,6 +21,7 @@ Estructura de datos y Big O notation:
 
 - ordenarSaboresPorCantidad: O(n^2)
 
+
 # "SICT0301 Evalúa los componentes"
 
   # Hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados en el programa.
@@ -30,13 +31,20 @@ Estructura de datos y Big O notation:
   # Hace un análisis de complejidad correcto y completo todas las estructuras de datos y cada uno de sus usos en el programa
 
   # Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa
+  
 
 # "SICT0302 Toma decisiones "
 
   # Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente.
 
+  Como ya se ha mencionado anteriormente, el método que se optó fue el de inserción, esto ya que no contamos con tantos datos como para usar un método merge. Se puede encontrar este ordenamiento en la función "ordenarSaboresPorCantidad()" 
+
 
   # Selecciona una estructura de datos adecuada al problema y lo usa correctamente.
+
+  Para la estructura de datos se decidió ocupar los Hash Maps, los cuales son: Un mapeo de clave-valor, lo que significa que cada clave se asigna exactamente a un valor y que podemos usar la clave para recuperar el valor correspondiente de un HashMap.
+
+  
 
 
 # "SICT0303 Implementa acciones científicas"
@@ -50,7 +58,7 @@ Estructura de datos y Big O notation:
 
   # Implementa mecanismos de lectura de archivos para cargar datos a las estructuras de manera correcta
 
-  En el archivo "Contenido.cpp" está un método llamado "cargarDatosDesdeTXT()" como lo dice su nombre lo que se realiza      aquí es leer linea por linea del txt e irlo metiendo a la estructura de datos escogida, que en este caso fueron los Hash   Maps.
+  En el archivo "Contenido.cpp" está un método llamado "cargarDatosDesdeTXT()" como lo dice su nombre lo que se realiza aquí es leer linea por linea del txt e irlo metiendo a la estructura de datos escogida, que en este caso fueron los Hash   Maps.
 
   Un ejemplo de cómo aparecen los datos en el txt sería de la siguiente forma:
 
