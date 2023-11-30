@@ -41,6 +41,7 @@ Para el archivo del main su complejidad total fue de: O(1) ya que:
   - Las operaciones de entrada/salida (cin, cout) son de tiempo constante.
 
 Para el archivo Contenido.cpp su complejidad total fue O(n*m):
+
 La complejidad total del programa se verá dominada por las operaciones de carga y procesamiento de datos en el método cargarDatosDesdeTXT de la clase Contenido, ya que es la operación más costosa en términos de tiempo y espacio. Por lo tanto, la complejidad final sería aproximadamente O(n⋅m), donde n es la cantidad total de líneas en el archivo y m es el número de sabores en cada línea. Las demás operaciones son de complejidad constante y no afectarán significativamente la complejidad total del programa.
   
 
