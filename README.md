@@ -33,6 +33,15 @@ Estructura de datos y Big O notation:
   El método cargarDatosDesdeTXT funciona al procesar un archivo CSV que contiene información sobre ventas de diferentes sabores en diversas fechas. La complejidad de tiempo proviene de dos bucles: el primero recorre las lineas del archivo (n), y el segundo, dentro de este, analiza los sabores de cada línea (m). Dentro del bucle interno, se utiliza un hash map para almacenar la cantidad de cada sabor en una fecha específica. La complejidad de espacio O(n*m).
 
   # Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa
+
+Para el archivo del main su complejidad total fue de: O(1) ya que:
+
+  - El bucle se ejecuta mientras el usuario desee continuar.
+  - No se utiliza espacio adicional significativo en el bucle.
+  - Las operaciones de entrada/salida (cin, cout) son de tiempo constante.
+
+Para el archivo Contenido.cpp su complejidad total fue O(n*m):
+La complejidad total del programa se verá dominada por las operaciones de carga y procesamiento de datos en el método cargarDatosDesdeTXT de la clase Contenido, ya que es la operación más costosa en términos de tiempo y espacio. Por lo tanto, la complejidad final sería aproximadamente O(n⋅m), donde n es la cantidad total de líneas en el archivo y m es el número de sabores en cada línea. Las demás operaciones son de complejidad constante y no afectarán significativamente la complejidad total del programa.
   
 
 # "SICT0302 Toma decisiones "
