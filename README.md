@@ -15,7 +15,7 @@ Estas funcionalidades proporcionan a los usuarios una herramienta eficaz para ge
 
   # Hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados en el programa.
 
-    Para el ordenamiento de los sabores del inventario de Malanguetas opté por usar un método de inserción, como se mencionó anteriormente este método va a ordenar de menor a mayor los sabores. Para el análisis de complejidad se encontró que este era de tipo O(n^2)
+  Para el ordenamiento de los sabores del inventario de Malanguetas opté por usar un método de inserción, como se mencionó anteriormente este método va a ordenar de menor a mayor los sabores. Para el análisis de complejidad se encontró que este era de tipo O(n^2)
 
   # Hace un análisis de complejidad correcto y completo todas las estructuras de datos y cada uno de sus usos en el programa
 
