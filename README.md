@@ -43,9 +43,14 @@ Estructura de datos y Big O notation:
 
   # Implementa mecanismos para consultar información de las estructras correctos
 
+  El programa es capaz de recibir consultas del usuario tales como:
+    - Pedir mostrar todos los sabores disponibles de menor a mayor (Esto de una fecha en especifico)
+    - Buscar un sabor de una fecha en especifico
+    - Agregar una nueva fecha con las cantidades de malangas vendidas por sabor
 
   # Implementa mecanismos de lectura de archivos para cargar datos a las estructuras de manera correcta
 
+    
 
   # Implementa mecanismos de escritura de archivos para guardar los datos  de las estructuras de manera correcta
 
