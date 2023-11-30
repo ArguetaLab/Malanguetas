@@ -11,6 +11,19 @@ En este repositorio, encontrarás un código capaz de organizar el stock de una 
 
 Estas funcionalidades proporcionan a los usuarios una herramienta eficaz para gestionar su inventario y tomar decisiones informadas sobre qué sabores son más populares y cuáles pueden necesitar una mayor atención en términos de suministro. Este código se puede ampliar y personalizar según las necesidades específicas de Malanguetas para una gestión de inventario más completa y eficiente.
 
+# "SICT0301 Evalúa los componentes"
+
+  # Hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados en el programa.
+
+    Para el ordenamiento de los sabores del inventario de Malanguetas opté por usar un método de inserción, como se mencionó anteriormente este método va a ordenar de menor a mayor los sabores. Para el análisis de complejidad se encontró que este era de tipo O(n^2)
+
+  # Hace un análisis de complejidad correcto y completo todas las estructuras de datos y cada uno de sus usos en el programa
+
+  # Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa
+
+
+
+
 Para usar correctamente este software, a la hora que se le solicite al usuario seleccionar una fecha, esta deberá ser en el rango de 28/09/2023 - 16/10/2023
 
 Estructura de datos y Big O notation:
