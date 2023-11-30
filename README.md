@@ -50,7 +50,13 @@ Estructura de datos y Big O notation:
 
   # Implementa mecanismos de lectura de archivos para cargar datos a las estructuras de manera correcta
 
-    
+  En el archivo "Contenido.cpp" está un método llamado "cargarDatosDesdeTXT()" como lo dice su nombre lo que se realiza      aquí es leer linea por linea del txt e irlo metiendo a la estructura de datos escogida, que en este caso fueron los Hash   Maps.
+
+  Un ejemplo de cómo aparecen los datos en el txt sería de la siguiente forma:
+
+  06/10/2023,14,8,2,8,32,34,44
+
+  La razón por la que se escogió esta estructura de datos fue porque necesitabamos relacionarlos con una clave y un valor,   esto con el objetivo de mantenerlos relacionados y no se revolvieran. Aparte que esta estructura es más rápida que hacer   un vector dentro de otro.
 
   # Implementa mecanismos de escritura de archivos para guardar los datos  de las estructuras de manera correcta
 
