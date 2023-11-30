@@ -42,7 +42,7 @@ Estructura de datos y Big O notation:
 
   # Selecciona una estructura de datos adecuada al problema y lo usa correctamente.
 
-  Para la estructura de datos se decidió ocupar los Hash Maps, los cuales son: Un mapeo de clave-valor, lo que significa que cada clave se asigna exactamente a un valor y que podemos usar la clave para recuperar el valor correspondiente de un HashMap.
+  Para la estructura de datos se decidió ocupar los Hash Maps, los cuales son: Un mapeo de clave-valor, lo que significa que cada clave se asigna exactamente a un valor y que podemos usar la clave para recuperar el valor correspondiente de un HashMap. Más adelante se    explicará a profundidad el cómo se aplica esta estructura a nuestro código y de qué forma está relacionado con la lectura y escritura de nuestro archivo TXT.
 
   
 
