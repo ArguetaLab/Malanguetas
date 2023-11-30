@@ -64,9 +64,10 @@ La complejidad total del programa se verá dominada por las operaciones de carga
   # Implementa mecanismos para consultar información de las estructras correctos
 
   El programa es capaz de recibir consultas del usuario tales como:
-    - Pedir mostrar todos los sabores disponibles de menor a mayor (Esto de una fecha en especifico)
-    - Buscar un sabor de una fecha en especifico
-    - Agregar una nueva fecha con las cantidades de malangas vendidas por sabor
+  
+  - Pedir mostrar todos los sabores disponibles de menor a mayor (Esto de una fecha en especifico)
+  - Buscar un sabor de una fecha en especifico
+  - Agregar una nueva fecha con las cantidades de malangas vendidas por sabor
 
   # Implementa mecanismos de lectura de archivos para cargar datos a las estructuras de manera correcta
 
