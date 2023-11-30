@@ -30,6 +30,8 @@ Estructura de datos y Big O notation:
 
   # Hace un análisis de complejidad correcto y completo todas las estructuras de datos y cada uno de sus usos en el programa
 
+  El método cargarDatosDesdeTXT funciona al procesar un archivo CSV que contiene información sobre ventas de diferentes sabores en diversas fechas. La complejidad de tiempo proviene de dos bucles: el primero recorre las lineas del archivo (n), y el segundo, dentro de este, analiza los sabores de cada línea (m). Dentro del bucle interno, se utiliza un hash map para almacenar la cantidad de cada sabor en una fecha específica. La complejidad de espacio O(n*m).
+
   # Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa
   
 
