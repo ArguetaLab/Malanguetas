@@ -60,6 +60,10 @@ Estructura de datos y Big O notation:
 
   # Implementa mecanismos de escritura de archivos para guardar los datos  de las estructuras de manera correcta
 
+  La forma en la que se escogió el cómo implementar este rugro fue permitiendole al usuario agregar una nueva fecha con la   cantidad de malangas en el día.
+
+  Para esto opté por realizar un método llamado "nuevaFecha()" el cual abre el archivo txt de la base de datos y lo     modifica añadiendo una nueva linea con el mismo formato que las anteriores. Posteriormente vuelve a llamar a la función   "cargarDatosDesdeTXT()" de   esta forma podemos escribir en archivos y guardarlos en la estructura.
+
 
 
 
